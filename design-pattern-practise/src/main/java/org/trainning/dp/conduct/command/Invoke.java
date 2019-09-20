@@ -4,8 +4,7 @@ public class Invoke {
 	
 	private Command command;
 
-	public Invoke(Command command) {
-		super();
+	public void setCommand(Command command) {
 		this.command = command;
 	}
 	
