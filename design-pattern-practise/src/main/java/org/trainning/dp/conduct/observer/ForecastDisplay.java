@@ -11,10 +11,10 @@ public class ForecastDisplay extends Observer implements DisplayElement {
 		this.temperature = temperature;
 		this.humidity = humidity;
 		this.airpressure = airpressure;
-		this.display();
+		//this.display();
 
 	}
-
+	
 	@Override
 	public void update(float temperature, float humidity, float airpressure) {
 		System.out.println("气温：" + this.temperature + "\t" + "湿度：" + this.humidity + "\t" + "气压：" + this.airpressure);
