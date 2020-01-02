@@ -7,4 +7,10 @@ public class Concrete1Template extends AbstractTemplate{
 		System.out.println("{Concrete1Template --> print } 執行了子類的方法！");
 	}
 
+	
+
+	
+	
+	
+
 }
